@@ -20,6 +20,39 @@
   },
   "RSpec": {
     "coverage": {
+      "/Users/willhelliwell/Dropbox/projects/whisky_tracker/app/helpers/application_helper.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null
+        ]
+      },
+      "/Users/willhelliwell/Dropbox/projects/whisky_tracker/app/helpers/home_helper.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null
+        ]
+      },
+      "/Users/willhelliwell/Dropbox/projects/whisky_tracker/app/controllers/home_controller.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/willhelliwell/Dropbox/projects/whisky_tracker/app/controllers/application_controller.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null
+        ]
+      },
       "/Users/willhelliwell/Dropbox/projects/whisky_tracker/app/mailers/application_mailer.rb": {
         "lines": [
           null,
@@ -58,47 +91,6 @@
         "branches": {
         }
       },
-      "/Users/willhelliwell/Dropbox/projects/whisky_tracker/app/controllers/application_controller.rb": {
-        "lines": [
-          null,
-          null,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/willhelliwell/Dropbox/projects/whisky_tracker/app/controllers/home_controller.rb": {
-        "lines": [
-          null,
-          null,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/willhelliwell/Dropbox/projects/whisky_tracker/app/helpers/home_helper.rb": {
-        "lines": [
-          null,
-          null,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/willhelliwell/Dropbox/projects/whisky_tracker/app/helpers/application_helper.rb": {
-        "lines": [
-          null,
-          null,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
       "/Users/willhelliwell/Dropbox/projects/whisky_tracker/app/channels/application_cable/connection.rb": {
         "lines": [
           null,
@@ -124,6 +116,6 @@
         }
       }
     },
-    "timestamp": 1616770449
+    "timestamp": 1616772519
   }
 }
