@@ -12,10 +12,10 @@ rails db:
 
 ### Unit Tests
 ```
-rails test
+rspec
 ```
 
 ### Feature Tests
 ```
-rails test:system
+???
 ```
