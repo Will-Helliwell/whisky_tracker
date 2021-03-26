@@ -7,15 +7,23 @@
 ### Setup
 ```
 bundle
-rails db:
+rails db:create
+rails db:migrate
 ```
+### Tests
 
-### Unit Tests
+To run all tests
 ```
 rspec
 ```
+To run only unit tests:
+```
+rspec --exclude-pattern "spec/features/**/*_spec.rb"
+```
+To run only feature tests:
+```
+rspec spec/features
+```
+nb - Simplecov code coverage will only be accurate when you run all tests together.
 
-### Feature Tests
-```
-???
-```
+To turn the headless browser during feature tests (for debugging purposes), uncomment the last line of ./spec/rails_helper.rb
