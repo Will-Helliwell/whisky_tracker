@@ -6,13 +6,13 @@
 ## To Run
 ### Setup
 ```
-bundle 
+bundle
 rails db:
 ```
 
 ### Unit Tests
 ```
-rspec
+rails test
 ```
 
 ### Feature Tests

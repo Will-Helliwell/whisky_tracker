@@ -1,0 +1,21 @@
+{
+  "Minitest": {
+    "coverage": {
+      "/Users/willhelliwell/Dropbox/projects/whisky_tracker/test/controllers/home_controller_test.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          0,
+          0,
+          null,
+          null
+        ]
+      }
+    },
+    "timestamp": 1616758713
+  }
+}
