@@ -10,7 +10,7 @@ dist: trusty
 
 addons:
   postgresql: "9.4"
-  
+
 before_install:
   - gem uninstall -v '>= 2' -i $(rvm gemdir)@global -ax bundler || true
   - gem install bundler -v '< 2'
@@ -21,4 +21,5 @@ script:
   - bundle _1.17.3_ install
   - bundle exec bin/rails db:create
   - bundle exec bin/rails db:migrate
+  - bundle exec rails webpacker:compile
   - bundle exec rspec
