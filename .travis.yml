@@ -6,6 +6,8 @@ rvm:
 services:
   - postgresql
 
+dist: trusty
+
 script:
   - gem install bundler
   # - bundle config set deployment 'true'
