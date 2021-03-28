@@ -27,3 +27,9 @@ rspec spec/features
 nb - Simplecov code coverage will only be accurate when you run all tests together.
 
 To turn the headless browser during feature tests (for debugging purposes), uncomment the last line of ./spec/rails_helper.rb
+
+
+## Learnings
+
+- Choice between minitest and rspec as frameworks + how to set up rspec with simplecov specifically for Rails (difficulty of setting up rspec with Minitest)
+- Adding pending tests to keep an accurate coverage figure whilst retaining as yet unused file structures (e.g. mailers, jobs etc.)

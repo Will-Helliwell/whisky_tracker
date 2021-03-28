@@ -1,5 +1,5 @@
 require 'rails_helper'
 
 RSpec.describe ApplicationJob, type: :job do
-  pending "add some examples to (or delete) #{__FILE__}"
+  pending "add  examples when setting up web-scraper jobs. File location: #{__FILE__}"
 end
