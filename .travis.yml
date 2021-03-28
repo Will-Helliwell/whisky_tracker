@@ -9,7 +9,7 @@ services:
 dist: trusty
 
 script:
-  - gem install bundler
+  # - gem install bundler
   # - bundle config set deployment 'true'
   - bundle install
   - bundle exec bin/rails db:create
