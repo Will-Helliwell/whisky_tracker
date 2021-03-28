@@ -17,4 +17,4 @@ require('bootstrap')
 import 'bootstrap/dist/css/bootstrap'
 
 // Load sample React component to make sure working
-require('./hello_react')
+require('./hello_react.jsx')
