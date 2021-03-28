@@ -8,10 +8,12 @@ services:
 
 dist: trusty
 
-script:
+before_install:
   - gem install bundler:1.17.3
+
+script:
   # - bundle config set deployment 'true'
-  - bundle install 
+  - bundle _1.17.3_ install
   - bundle exec bin/rails db:create
   - bundle exec bin/rails db:migrate
   - bundle exec rspec
