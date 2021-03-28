@@ -7,4 +7,8 @@ RSpec.describe 'FEATURE - Basic Infrastructure' do
     visit root_path
     expect(page).to have_text('Welcome to Whisky Tracker')
   end
+  xit 'allows React components to render on the homepage' do
+    visit root_path
+    expect(page).to have_text('Hello React!')
+  end
 end
