@@ -55,6 +55,7 @@ group :test do
   # Linting
   gem 'rubocop-rails', require: false
   # Test coverage
+  gem 'rspec-rails', '~> 5.0.0'
   gem 'simplecov', require: false
   gem 'simplecov-console', require: false
 end
