@@ -21,6 +21,8 @@ script:
   - bundle _1.17.3_ install
   - nvm install node
   - node -v
+  - npm i -g yarn
+  - yarn
   - bundle exec bin/rails db:create
   - bundle exec bin/rails db:migrate
   - RAILS_ENV=test bundle exec rails webpacker:compile
