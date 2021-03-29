@@ -1,6 +1,7 @@
 # Whisky Tracker
 
 [![Rails Style Guide](https://img.shields.io/badge/code_style-rubocop-brightgreen.svg)](https://github.com/rubocop/rubocop-rails)
+[![Build Status](https://www.travis-ci.com/Will-Helliwell/whisky_tracker.svg?branch=main)](https://www.travis-ci.com/Will-Helliwell/whisky_tracker)
 
 ## Current Progress
 
@@ -9,13 +10,13 @@ Full details can be found in [this Trello board](https://trello.com/b/fiTYUug4/w
 #### Completed:
 - Planning and setup of basic infrastructure (Rails, React, PostgreSQL)
 - Decision to use RSpec for testing. First unit and feature test passing.
+- Setup Travis for continuous integration - many hurdles here, including [Mimemagic's unfortunately-timed decision](https://dev.to/cseeman/what-s-up-with-mimemagic-breaking-everything-he1) to break all Rails 6.1+ apps...
 
 #### In progress:
-- Setup Travis for continuous integration - many hurdles here, including [Mimemagic's unfortunately-timed decision](https://dev.to/cseeman/what-s-up-with-mimemagic-breaking-everything-he1) to break all Rails 6.1+ apps...
-- Users can sign-up (plan to use Devise for this)
 
 #### To do next
-- Feature tests - not recognising React elements
+- Users can sign-up (plan to use Devise for this)
+- Feature tests - Capybara not yet recognising React elements
 
 
 ## About
