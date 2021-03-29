@@ -19,8 +19,10 @@ before_install:
 script:
   # - bundle config set deployment 'true'
   - bundle _1.17.3_ install
-  - nvm install node
+  - nvm install 11.10.0
   - node -v
+  # - node_js: 11.10.0
+  # - node -v
   - npm i -g yarn
   - yarn
   - bundle exec bin/rails db:create
