@@ -14,17 +14,15 @@ addons:
 before_install:
   - gem uninstall -v '>= 2' -i $(rvm gemdir)@global -ax bundler || true
   - gem install bundler -v '< 2'
-  # - gem install bundler:1.17.3
 
-script:
-  # - bundle config set deployment 'true'
+install:
   - bundle _1.17.3_ install
   - nvm install 11.10.0
   - node -v
-  # - node_js: 11.10.0
-  # - node -v
   - npm i -g yarn
   - yarn
+
+script:
   - bundle exec bin/rails db:create
   - bundle exec bin/rails db:migrate
   - RAILS_ENV=test bundle exec rails webpacker:compile
