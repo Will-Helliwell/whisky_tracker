@@ -8,13 +8,10 @@ RSpec.describe "FEATURE - sign-up" do
   end
 end
 
-RSpec.describe "FEATURE - log-in" do
-  it "allows an existing user to sign-in" do
-    visit root_path
-    click_link "Login/Sign-up"
-    fill_in "Email", with: "user-1@email.com"
-    fill_in "Password", with: "password"
-    click_button("Log in")
-    expect(page).to have_text("Welcome user-1@email.com!")
+RSpec.describe "FEATURE - logout" do
+  it "allows a logged-in user to logout" do
+    sign_up("user-1@email.com", "password")
+    click_link "Logout"
+    expect(page).to have_text("Please sign-in to view your whiskies")
   end
 end
