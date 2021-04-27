@@ -1,1 +1,6 @@
-<h1>Welcome to Whisky Tracker!</h1>
+<% if user_signed_in? %>
+  <h1> Welcome <%= "#{current_user.email}" %>! </h1>
+<% else %>
+  <h1> Welcome to Whisky Tracker! </h1>
+  <h3> Please <%= link_to('sign-in', new_user_session_path) %> to view your whiskies </h3>
+<% end %>

@@ -138,4 +138,5 @@ To turn the headless browser during feature tests (for debugging purposes), unco
 - Choice between minitest and rspec as frameworks + how to set up rspec with simplecov specifically for Rails (difficulty of setting up rspec with Minitest)
 - Adding pending tests to keep an accurate coverage figure whilst retaining as yet unused file structures (e.g. mailers, jobs etc.)
 - Check date of articles when debugging - found one was a major live issue from a few days before, hence no permanent fix yet, just a temporary workaround
+- When debugging Travis setup, pay close attention to 'hidden' errors, starting with the one closest to the top. 
 - You need to configure Capybara before it can 'see' React components
