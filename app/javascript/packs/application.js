@@ -15,6 +15,8 @@ ActiveStorage.start()
 // Load Bootstrap
 require('bootstrap')
 import 'bootstrap/dist/css/bootstrap'
+import 'bootstrap/dist/css/bootstrap.min.css'
+
 
 // Load sample React component to make sure working
 require('./hello_react.jsx')
