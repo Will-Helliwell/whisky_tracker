@@ -11,11 +11,15 @@ Full details can be found in [this Trello board](https://trello.com/b/fiTYUug4/w
 - Planning and setup of basic infrastructure (Rails, React, PostgreSQL)
 - Decision to use RSpec for testing. First unit and feature test passing.
 - Setup Travis for continuous integration - many hurdles here, including [Mimemagic's unfortunately-timed decision](https://dev.to/cseeman/what-s-up-with-mimemagic-breaking-everything-he1) to break all Rails 6.1+ apps...
+- Users can sign-up (plan to use Devise for this)
+
 
 #### In progress:
+- Deploy on Heroku
 
 #### To do next
-- Users can sign-up (plan to use Devise for this)
+- Style homepage
+- Users can add a whisky to 'my whiskies'
 - Feature tests - Capybara not yet recognising React elements
 
 
